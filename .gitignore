@@ -1,0 +1,31 @@
+# OS artifacts
+.DS_Store
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local virtual environments
+.venv/
+.venv_rebuild/
+
+# Notebook/runtime cache
+.ipynb_checkpoints/
+.mplconfig/
+
+# Experiment outputs
+runs/
+visuals/
+benchmarks/
+
+# Large local datasets and derived cache
+dataset/
+!dataset/README.md
+
+# Local logs and temp files
+*.log
+*.tmp

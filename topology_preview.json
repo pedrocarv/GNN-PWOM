@@ -1,0 +1,90 @@
+{
+  "series": {
+    "split": "train",
+    "source_path": "../pwom-surrogate-rebuild/dataset/particle_history_iline0001.dat",
+    "num_timesteps": 225,
+    "num_nodes": 113,
+    "num_shell_nodes": 112,
+    "num_species": 7,
+    "num_altitude_shells": 16,
+    "node_input_dim": 16,
+    "node_output_dim": 12,
+    "shell_altitude_min_km": 890.7991943359375,
+    "shell_altitude_max_km": 8043.83251953125,
+    "species_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "preview_timestep": 0,
+  "preview_model_time": 10.0,
+  "device": "cpu",
+  "data_cfg": {
+    "data_dir": "../pwom-surrogate-rebuild/dataset",
+    "num_particles": 256,
+    "num_altitude_shells": 16,
+    "species_ids": null
+  },
+  "model_cfg": {
+    "node_input_dim": 16,
+    "node_output_dim": 12,
+    "hidden_dim": 128,
+    "message_passing_layers": 4
+  },
+  "train_cfg": {
+    "epochs": 100,
+    "batch_size": 8,
+    "horizon": 3
+  },
+  "first_node_input": [
+    1114.33154296875,
+    447.0645751953125,
+    0.0,
+    0.0,
+    0.43092554807662964,
+    17.82595443725586,
+    0.0970015823841095,
+    1087.4530029296875,
+    -2957.351318359375,
+    110946.90625,
+    119.69171142578125,
+    136172.265625,
+    51063.34375,
+    38328.3203125,
+    3.5821734467589295e-11,
+    716.0222778320312
+  ],
+  "first_node_output": [
+    6867063.0,
+    25870510.0,
+    -112652136.0,
+    -60932508.0,
+    -81699584.0,
+    -162045600.0,
+    90306720.0,
+    -48141696.0,
+    79044240.0,
+    17816878.0,
+    149344272.0,
+    -49070404.0
+  ],
+  "dynamic_feature_names": [
+    "population_fraction",
+    "log_total_weight",
+    "open_fraction",
+    "mean_altitude_km",
+    "mean_vpar",
+    "mean_vperp",
+    "std_altitude_km",
+    "std_vpar",
+    "std_vperp",
+    "mean_b",
+    "mean_e",
+    "mean_g"
+  ]
+}

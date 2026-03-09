@@ -1,0 +1,9 @@
+{
+  "num_species": 7,
+  "num_altitude_shells": 8,
+  "num_shell_nodes": 56,
+  "num_nodes": 57,
+  "num_edges": 546,
+  "has_global_node": 1,
+  "has_species_coupling_edges": 1
+}

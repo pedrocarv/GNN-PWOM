@@ -1,0 +1,13 @@
+# Torch is the core tensor runtime for the v2 graph surrogate and training loops.
+torch
+
+# NumPy and pandas support deterministic preprocessing and dataset inspection.
+numpy
+pandas
+
+# tqdm is used for reproducible, script-friendly progress reporting.
+tqdm
+
+# matplotlib remains useful for diagnostics and rollout visualization.
+matplotlib
+
