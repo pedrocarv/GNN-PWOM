@@ -30,10 +30,6 @@ The model reads a short history of shell states and predicts the next shell stat
 - Core package directory (`pwom_surrogate_*`): data transforms, normalization, model, configuration dataclasses
 - `scripts/`: training, evaluation, rollout, and plotting programs
 - `tests/`: topology and contract-focused tests
-- `docs/`: concise workflow and architecture notes
-- `shell_layouts/`: shell edge presets for non-uniform altitude grids
-- `dataset/`: local data placeholder and notes (not tracked)
-- `runs/`: checkpoints, histories, and evaluation outputs (not tracked)
 
 ## Environment Setup
 
